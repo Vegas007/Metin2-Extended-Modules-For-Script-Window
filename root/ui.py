@@ -7,11 +7,11 @@
 		:param args: Is used to send a non-keyworded variable length argument list to the function.
 		:how-to-call-ex:
 			* I. childrenDict = self.GetChildDictionary('a1')
-				# childrenDict['b1'].SetScale(scale)
+				# childrenDict['a1'].SetScale(scale)
 
 			* II. childrenDict = self.GetChildDictionary('b1', 'b2')
-				# childrenDict['b2'].SetSize(w, h)
-				# childrenDict['b3'].SetPosition(x, y)
+				# childrenDict['b1'].SetSize(w, h)
+				# childrenDict['b2'].SetPosition(x, y)
 
 			* III. 
 				for value in self.GetChildDictionary('c1', 'c2', 'c3', 'c4').values():
