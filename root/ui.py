@@ -23,8 +23,6 @@
 
 				for key, value in enumerate(self.GetChildDictionary('d1', 'd2').values()):
 					value.SAFE_SetEvent(self.OnToggleDown, key)
-					
-					SetEvent(ui.__mem_func__(self.StartGame))
 
 		"""
 		if isinstance(args, tuple):
